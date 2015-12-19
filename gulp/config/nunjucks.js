@@ -7,9 +7,11 @@ module.exports = {
     paths: [
       path.src + 'templates',
       path.src + 'templates/layout',
-      path.src + 'templates/partials/layout/head',
-      path.src + 'templates/partials/layout/foot',
-      path.src + 'templates/partials/components'
+      path.src + 'templates/layout/head',
+      path.src + 'templates/layout/foot',
+      path.src + 'templates/partials/components',
+      path.src + 'templates/partials/layout',
+      path.src + 'templates/partials/other'
     ],
     data: path.src + 'templates/data/global.json',
     dest: path.dest

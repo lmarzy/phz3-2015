@@ -1,17 +1,17 @@
 {
-  "name": "kickstart-gulp",
+  "name": "phz3-2015",
   "version": "0.0.1",
-  "description": "Starter template using Gulp as the build tool",
+  "description": "phz3-2015 re-build",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lmarzy/kickstart-gulp.git"
+    "url": "git+https://github.com/lmarzy/phz3-2015.git"
   },
-  "homepage": "https://github.com/lmarzy/kickstart-gulp#readme",
+  "homepage": "https://github.com/lmarzy/phz3-2015#readme",
   "author": "Lee Marsden",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lmarzy/kickstart-gulp/issues"
+    "url": "https://github.com/lmarzy/phz3-2015/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

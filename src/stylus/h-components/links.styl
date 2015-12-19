@@ -1,0 +1,49 @@
+/* ==========================================================================
+   COMPONENTS - LINKS
+   ========================================================================== */
+
+@keyframes twitter {
+  0% 		{ opacity: 0; transform: translateY(-30px) }
+  100% 	{ opacity: 0.3; transform: translateX(0); }
+}
+
+@keyframes linkedin {
+  0% 		{ opacity: 0; transform: translateY(30px) }
+  100% 	{ opacity: 0.3; transform: translateX(0); }
+}
+
+@keyframes blog {
+  0% 		{ opacity: 0; transform: translateY(-30px) }
+  100% 	{ opacity: 0.3; transform: translateX(0); }
+}
+
+.c-links {
+  margin-bottom: base-spacing;
+
+    &__item {
+      display: inline-block;
+      padding: 0 rem(4px);
+    }
+
+    &__link {
+      display: block;
+      width: rem(36);
+      height: rem(36);
+      padding: rem(8px);
+      background-color: colours.brand.a;
+      border-radius: 50%;
+      color: colours.brand.b;
+      opacity: 0;
+
+        &--twitter {
+          animation: twitter 1400ms 400ms ease-in forwards;
+        }
+        &--linkedin {
+          animation: linkedin 1400ms 1000ms ease-in forwards;
+        }
+        &--blog {
+          animation: blog 1400ms 1600ms ease-in forwards;
+        }
+    }
+
+}

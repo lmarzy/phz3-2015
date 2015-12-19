@@ -2,6 +2,48 @@
    COMPONENTS - LOGO
    ========================================================================== */
 
+@keyframes logoP {
+  0% 		{ opacity: 0; transform: translateX(40px) }
+  100% 	{ opacity: 1; transform: translateX(0); }
+}
+
+@keyframes logoH {
+  0% 		{ opacity: 0; transform: translateX(80px) }
+  100% 	{ opacity: 1; transform: translateX(0); }
+}
+
+@keyframes logoZ {
+  0% 		{ opacity: 0; transform: translateX(120px) }
+  100% 	{ opacity: 1; transform: translateX(0); }
+}
+
+@keyframes logo3 {
+  0% 		{ opacity: 0; transform: translateY(-80px) }
+  100% 	{ opacity: 1; transform: translateY(-40); }
+}
+
 .c-logo {
+  vr(ms.j, 1, 0.5);
+  text-transform: uppercase;
+  color: lighten(colours.brand.b,6);
+  text-shadow: 1px 1px 8px rgba(darken(#555555,35), 0.3);
+
+    &__p, &__h, &__z, &__3 {
+      display: inline-block;
+      opacity: 0;
+    }
+    &__p {
+      animation: logoP 600ms ease-in forwards;
+    }
+    &__h {
+      animation: logoH 800ms 200ms ease-in forwards;
+    }
+    &__z {
+      animation: logoZ 1000ms 400ms ease-in forwards;
+    }
+    &__3 {
+      animation: logo3 800ms 800ms ease-in forwards;
+      font-size: rem(60px);
+    }
 
 }

@@ -1,11 +1,37 @@
 {
 
 	"metaAuthor": "Lee Marsden",
-	"siteName": "Kickstart - Gulp",
+	"siteName": "PHZ3 - Front End Development",
 
-	"siteNav": [
-		{ "linkName": "Link one", "linkUrl": "/" },
-		{ "linkName": "Link two", "linkUrl": "/" }
-	]
+	"links": [
+		{
+			"url": "https://twitter.com/#!/phzthree",
+			"text": "Go to my Twitter page",
+			"icon": "icon-twitter",
+			"linkClass": "twitter"
+		},
+		{
+			"url": "http://www.linkedin.com/pub/lee-marsden/1b/278/980",
+			"text": "Go to my Linked In page",
+			"icon": "icon-linkedin",
+			"linkClass": "linkedin"
+		},
+		{
+			"url": "http://phz3.net",
+			"text": "Go to my Blog",
+			"icon": "icon-blog",
+			"linkClass": "blog"
+		}
+	],
+
+	"status": {
+			"inContract": "Yes",
+			"company": "Bizfitech",
+			"date": {
+				"machine": "2015-12-31",
+				"screen": "31/12/2015"
+			},
+			"title": "UI Developer"
+	}
 
 }

@@ -1,0 +1,30 @@
+/* ==========================================================================
+   COMPONENTS - CONTACT
+   ========================================================================== */
+
+@keyframes email {
+ 0% 		{ opacity: 0; transform: translateX(-40px) }
+ 100% 	{ opacity: 1; transform: translateX(0); }
+}
+@keyframes mob {
+ 0% 		{ opacity: 0; transform: translateX(40px) }
+ 100% 	{ opacity: 1; transform: translateX(0); }
+}
+
+.c-contact {
+
+    &__item {
+
+      &--email, &--mob {
+        opacity: 0;
+      }
+
+      &--email {
+        animation: email 1200ms 1600ms ease-in forwards;
+      }
+      &--mob {
+        animation: mob 1200ms 1600ms ease-in forwards;
+      }
+
+    }
+}
