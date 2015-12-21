@@ -19,14 +19,16 @@
 				{% endfor %}
 			</ul>
 
-			<ul class="c-contact">
+			<ul class="c-site-header__contact c-contact">
 				<li class="c-contact__item c-contact__item--email"><a href="mailto:me@phz3.net">me@phz3.net</a></li>
 				<li class="c-contact__item c-contact__item--mob"><span class="is-vh">Contact number: </span>07903635253<li>
 			</ul>
 
+			<p class="c-site-header__status-link c-status-link"><span class="is-vh">Show my current </span><a href="#work-status">Work status</a></p>
+
 		</div>
 
-		<dl class="c-status">
+		<dl id="work-status" class="c-site-header__status c-status">
 			<dt>In contract</dt>
 			<dd>{{ status.inContract }}</dd>
 			<dt>Company</dt>

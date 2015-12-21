@@ -5,12 +5,7 @@
 .c-status {
   dl-inline(50%, 50%);
 
-    +bp('10', max) {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      right: rem(-200px);
-      width: rem(200px);
+    +bp('20', max) {
       background: lighten(colours.brand.b,5);
       color: lighten(colours.main.text,15);
     }
@@ -31,4 +26,11 @@
           background: darken(colours.brand.b,8);
         }
     }
+
+    +bp('20') {
+      dt, dd {
+        padding: rem(12px);
+      }
+    }
+
 }
