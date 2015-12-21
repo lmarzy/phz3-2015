@@ -3,18 +3,18 @@
    ========================================================================== */
 
 @keyframes twitter {
-  0% 		{ opacity: 0; transform: translateY(-30px) }
-  100% 	{ opacity: 0.3; transform: translateX(0); }
+  0% 		{ opacity: 0; transform: scale(0.4) }
+  100% 	{ opacity: 0.4; transform: scale(1) }
 }
 
 @keyframes linkedin {
-  0% 		{ opacity: 0; transform: translateY(30px) }
-  100% 	{ opacity: 0.3; transform: translateX(0); }
+  0% 		{ opacity: 0; transform: scale(0.4) }
+  100% 	{ opacity: 0.4; transform: scale(1) }
 }
 
 @keyframes blog {
-  0% 		{ opacity: 0; transform: translateY(-30px) }
-  100% 	{ opacity: 0.3; transform: translateX(0); }
+  0% 		{ opacity: 0; transform: scale(0.4) }
+  100% 	{ opacity: 0.4; transform: scale(1) }
 }
 
 .c-links {
@@ -36,13 +36,13 @@
       opacity: 0;
 
         &--twitter {
-          animation: twitter 1400ms 400ms ease-in forwards;
+          animation: twitter 700ms 800ms ease-in forwards;
         }
         &--linkedin {
-          animation: linkedin 1400ms 1000ms ease-in forwards;
+          animation: linkedin 700ms 1200ms ease-in forwards;
         }
         &--blog {
-          animation: blog 1400ms 1600ms ease-in forwards;
+          animation: blog 700ms 1600ms ease-in forwards;
         }
     }
 
