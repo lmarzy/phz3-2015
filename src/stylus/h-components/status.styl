@@ -12,25 +12,25 @@
 
     dt, dd {
       padding: rem(10px) rem(6px);
-
-        &:nth-child(1), &:nth-child(2) {
-          background: darken(colours.brand.b,2);
-        }
-        &:nth-child(3), &:nth-child(4) {
-          background: darken(colours.brand.b,4);
-        }
-        &:nth-child(5), &:nth-child(6) {
-          background: darken(colours.brand.b,6);
-        }
-        &:nth-child(7), &:nth-child(8) {
-          background: darken(colours.brand.b,8);
-        }
     }
 
-    +bp('20') {
-      dt, dd {
-        padding: rem(12px);
+    dt:nth-of-type(1), dd:nth-of-type(2) {
+      background: darken(colours.brand.b,2);
+    }
+    dt:nth-of-type(3), dd:nth-of-type(4) {
+      background: darken(colours.brand.b,4);
+    }
+    dt:nth-of-type(5), dd:nth-of-type(6) {
+      background: darken(colours.brand.b,6);
+    }
+    dt:nth-of-type(7), dd:nth-of-type(8) {
+      background: darken(colours.brand.b,8);
+    }
+
+      +bp('20') {
+        dt, dd {
+          padding: rem(12px);
+        }
       }
-    }
 
 }
