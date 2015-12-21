@@ -7,4 +7,22 @@ desc: Needs updating
 
 {% block content %}
 
+  <div class="o-wrap">
+
+    {% include "about.nunjucks" %}
+
+    <div class="o-grid">
+
+      <div class="l-experience">
+        {% include "experience.nunjucks" %}
+      </div>
+
+      <div class="l-skills">
+        {% include "skills.nunjucks" %}
+      </div>
+
+    </div>
+
+  </div>
+
 {% endblock %}

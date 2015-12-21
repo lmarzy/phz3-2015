@@ -32,6 +32,28 @@
 				"screen": "31/12/2015"
 			},
 			"title": "UI Developer"
-	}
+	},
+
+	"experience": [
+		{
+			"current": true,
+			"title": "UI Developer",
+			"company": "Bizfitech",
+			"dates": {
+				"startMachine": "2015-08-01",
+				"startScreen": "August 2015"
+			}
+		},
+		{
+			"title": "UI Developer",
+			"company": "Emirates",
+			"dates": {
+				"startMachine": "2015-08-01",
+				"startScreen": "August 2015",
+				"endMachine": "2015-10-01",
+				"endScreen": "October 2015"
+			}
+		}
+	]
 
 }

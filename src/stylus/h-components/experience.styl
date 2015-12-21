@@ -1,0 +1,40 @@
+/* ==========================================================================
+   COMPONENTS - EXPERIENCE
+   ========================================================================== */
+
+.c-experience {
+  position: relative;
+  margin-bottom: base-spacing;
+  padding: base-spacing 0 0 base-spacing;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: rem(20px);
+      bottom: 0;
+      left: 0;
+      width: 4px;
+      background: darken(colours.main.borders,5);
+    }
+
+    &__item {
+      position: relative;
+      margin-bottom: base-spacing;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: rem(7px);
+          left: rem(-26px);
+          width: rem(8px);
+          height: rem(8px);
+          background: darken(colours.brand.a,48);
+          border-radius: 2px;
+        }
+
+        &:last-child {
+          margin: 0;
+        }
+    }
+
+}

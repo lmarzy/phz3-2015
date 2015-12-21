@@ -24,7 +24,9 @@
 				<li class="c-contact__item c-contact__item--mob"><span class="is-vh">Contact number: </span>07903635253<li>
 			</ul>
 
-			<p class="c-site-header__status-link c-status-link"><span class="is-vh">Show my current </span><a href="#work-status">Work status</a></p>
+			<p class="c-site-header__status-link c-status-link">
+				<span class="is-vh">Show my current </span>
+				<a href="#work-status">Work status <svg class="c-status-link__icon icon icon-circle-right"><use xlink:href="#icon-circle-right"></use></svg></a></p>
 
 		</div>
 

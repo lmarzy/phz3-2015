@@ -1,0 +1,21 @@
+<section class="c-section">
+
+  <h1 class="c-section__title">Experience</h1>
+
+  <ol class="c-experience">
+
+    {% for item in experience %}
+      <li class="c-experience__item">
+        <h2>{{ item.title }} - {{ item.company }}</h2>
+        <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
+        {% if item.current %}
+          <time datetime="{{ item.dates.startMachine }}" class="c-date">{{ item.dates.startScreen }}</time> - <span class="c-current">Current</span>
+        {% else %}
+          <time datetime="{{ item.dates.startMachine }}" class="c-date">{{ item.dates.startScreen }}</time> - <time datetime="{{ item.dates.endMachine }}" class="c-date">{{ item.dates.endScreen }}</time>
+        {% endif %}
+      </li>
+    {% endfor %}
+
+  </ol>
+
+</section>

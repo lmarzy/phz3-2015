@@ -5,9 +5,11 @@ if imports.objects.wrapper {
    ========================================================================== */
 
 	.o-wrap  {
-		width: 96%;
-		max-width: rem(max-width);
-		margin: 0 auto;
+		padding: 0 rem(12px);
+
+			+bp('20') {
+				padding: 0 rem(24px);
+			}
 	}
 
 } // END IF
