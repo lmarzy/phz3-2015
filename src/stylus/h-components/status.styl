@@ -3,5 +3,32 @@
    ========================================================================== */
 
 .c-status {
+  dl-inline(50%, 50%);
 
+    +bp('10', max) {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: rem(-200px);
+      width: rem(200px);
+      background: lighten(colours.brand.b,5);
+      color: lighten(colours.main.text,15);
+    }
+
+    dt, dd {
+      padding: rem(10px) rem(6px);
+
+      &:nth-child(1), &:nth-child(2) {
+        background: darken(colours.brand.b,2);
+      }
+        &:nth-child(3), &:nth-child(4) {
+          background: darken(colours.brand.b,4);
+        }
+        &:nth-child(5), &:nth-child(6) {
+          background: darken(colours.brand.b,6);
+        }
+        &:nth-child(7), &:nth-child(8) {
+          background: darken(colours.brand.b,8);
+        }
+    }
 }
