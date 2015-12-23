@@ -28,22 +28,24 @@
   color: lighten(colours.brand.b,15);
   text-shadow: 1px 1px 8px rgba(darken(#555555,35), 0.3);
 
-    &__p, &__h, &__z, &__3 {
-      display: inline-block;
-      opacity: 0;
-    }
-    &__p {
-      animation: logoP 600ms ease-in forwards;
-    }
-    &__h {
-      animation: logoH 800ms 200ms ease-in forwards;
-    }
-    &__z {
-      animation: logoZ 1000ms 400ms ease-in forwards;
-    }
-    &__3 {
-      animation: logo3 800ms 800ms ease-in forwards;
-      font-size: rem(60px);
+    +bp('20', max) {
+      &__p, &__h, &__z, &__3 {
+        display: inline-block;
+        opacity: 0;
+      }
+      &__p {
+        animation: logoP 600ms ease-in forwards;
+      }
+      &__h {
+        animation: logoH 800ms 200ms ease-in forwards;
+      }
+      &__z {
+        animation: logoZ 1000ms 400ms ease-in forwards;
+      }
+      &__3 {
+        animation: logo3 800ms 800ms ease-in forwards;
+        font-size: rem(60px);
+      }
     }
 
 }

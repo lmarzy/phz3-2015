@@ -9,6 +9,9 @@
 
 .c-tagline {
   font-style: italic;
-  opacity: 0;
-  animation: tagline 1600ms 400ms ease-in forwards;
+
+    +bp('20', max) {
+      opacity: 0;
+      animation: tagline 1600ms 400ms ease-in forwards;
+    }
 }

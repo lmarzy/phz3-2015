@@ -1,5 +1,33 @@
-<section class="c-section">
+<div class="c-section">
 
-  <h1 class="c-section__title">Skills</h1>
+  <section>
 
-</section>
+    <h1 class="c-section__title">Skills</h1>
+
+    <p>
+      {{ skills | join(", ") }}
+    </p>
+
+  </section>
+
+  <section>
+
+    <h1 class="c-section__title">Tools</h1>
+
+    <p>
+      {{ tools | join(", ") }}
+    </p>
+
+  </section>
+
+  <section>
+
+    <h1 class="c-section__title">Exposure</h1>
+
+    <p>
+      {{ exposure | join(", ") }}
+    </p>
+
+  </section>
+
+</div>

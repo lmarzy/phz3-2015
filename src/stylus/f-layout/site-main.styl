@@ -2,11 +2,19 @@
    COMPONENTS - MAIN
    ========================================================================== */
 
+@keyframes site-main {
+ 0% 		{ transform: translateX(120px) }
+ 100% 	{ opacity: 1; transform: translateX(0); }
+}
+
+
 .c-main {
 
-    +bp('20') {
-      margin-left: rem(320px);
-      height: 800px;
-    }
+      +bp('20') {
+        margin-left: rem(320px);
+        opacity: 0;
+        border-radius: 6px;
+        animation: site-main 1200ms ease-in forwards;
+      }
 
 }

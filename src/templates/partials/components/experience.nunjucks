@@ -6,7 +6,7 @@
 
     {% for item in experience %}
       <li class="c-experience__item">
-        <h2>{{ item.title }} - {{ item.company }}</h2>
+        <h2>{{ item.title }} - <span class="c-experience__company">{{ item.company }}</span></h2>
         <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
         {% if item.current %}
           <time datetime="{{ item.dates.startMachine }}" class="c-date">{{ item.dates.startScreen }}</time> - <span class="c-current">Current</span>

@@ -17,7 +17,7 @@
 			"linkClass": "linkedin"
 		},
 		{
-			"url": "http://phz3.net",
+			"url": "http://openbracket.co.uk",
 			"text": "Go to my Blog",
 			"icon": "icon-blog",
 			"linkClass": "blog"
@@ -37,7 +37,7 @@
 	"experience": [
 		{
 			"current": true,
-			"title": "UI Developer",
+			"title": "Lead UI Developer",
 			"company": "Bizfitech",
 			"dates": {
 				"startMachine": "2015-08-01",
@@ -48,12 +48,145 @@
 			"title": "UI Developer",
 			"company": "Emirates",
 			"dates": {
-				"startMachine": "2015-08-01",
-				"startScreen": "August 2015",
-				"endMachine": "2015-10-01",
-				"endScreen": "October 2015"
+				"startMachine": "2015-07-01",
+				"startScreen": "July 2015",
+				"endMachine": "2015-09-01",
+				"endScreen": "September 2015"
+			}
+		},
+		{
+			"title": "UI Consultant",
+			"company": "EPOS Now",
+			"dates": {
+				"startMachine": "2015-06-01",
+				"startScreen": "June 2015",
+				"endMachine": "2015-07-01",
+				"endScreen": "July 2015"
+			}
+		},
+		{
+			"title": "Lead Front-end",
+			"company": "Tesco Bank",
+			"dates": {
+				"startMachine": "2014-12-01",
+				"startScreen": "December 2014",
+				"endMachine": "2015-05-01",
+				"endScreen": "May 2015"
+			}
+		},
+		{
+			"title": "Lead UI Developer",
+			"company": "Experian",
+			"dates": {
+				"startMachine": "2019-12-01",
+				"startScreen": "December 2013",
+				"endMachine": "2014-12-01",
+				"endScreen": "December 2014"
+			}
+		},
+		{
+			"title": "Lead UI Developer",
+			"company": "Dunelm",
+			"dates": {
+				"startMachine": "2013-04-01",
+				"startScreen": "April 2016",
+				"endMachine": "2013-12-01",
+				"endScreen": "December 2013"
+			}
+		},
+		{
+			"title": "Lead UI Developer",
+			"company": "Experian",
+			"dates": {
+				"startMachine": "2011-11-01",
+				"startScreen": "November 2011",
+				"endMachine": "2013-04-01",
+				"endScreen": "April 2013"
+			}
+		},
+		{
+			"title": "Head of Web-design/Front-end",
+			"company": "Metafocus",
+			"dates": {
+				"startMachine": "2011-03-01",
+				"startScreen": "March 2011",
+				"endMachine": "2011-11-01",
+				"endScreen": "November 2011"
+			}
+		},
+		{
+			"title": "UI Designer/Developer",
+			"company": "Play.com",
+			"dates": {
+				"startMachine": "2009-11-01",
+				"startScreen": "November 2009",
+				"endMachine": "2011-03-01",
+				"endScreen": "March 2011"
+			}
+		},
+		{
+			"title": "Tech Support/Web developer",
+			"company": "Sports Direct",
+			"dates": {
+				"startMachine": "2006-09-01",
+				"startScreen": "September 2006",
+				"endMachine": "2009-11-01",
+				"endScreen": "November 2009"
 			}
 		}
+	],
+
+	"skills": [
+		"(X)HTML 4/5",
+		"CSS 2/3",
+		"LESS, SASS, Stylus and PostCSS",
+		"JavaScript",
+		"jQuery",
+		"DOM",
+		"JSON",
+		"Usability/Accessibility",
+		"Cross browser implementation",
+		"WireFraming and Prototyping",
+		"Information Architecture",
+		"Source Control(Git, SVN, TFS)",
+		"Responsive web design(mobile first)",
+		"CMS (Umbraco, Sitecore, Tridion)",
+		"SMACSS, OOCSS and BEM"
+	],
+
+	"tools": [
+		"Grunt",
+		"Gulp",
+		"NPM",
+		"Adobe Photoshop",
+		"Adobe Fireworks",
+		"Sketch",
+		"Visual Studio",
+		"Team Foundation Server",
+		"Eclipse",
+		"Axure",
+		"Invision",
+		"Sublime Text",
+		"Atom",
+		"Visusl studio code",
+		"Webstorm",
+		"Git and Github"
+	],
+
+	"exposure": [
+		"AngularJS",
+		"Reactjs",
+		"Haml",
+		"Node",
+		"Linux",
+		"Xml",
+		"Asp.net (including MVC Framework)",
+		"PHP",
+		"T-SQL",
+		"Jekyll (static site generator)",
+		"Twitter bootstrap/Zurb Foundation/Bourbon/Neat",
+		"Casperjs",
+		"Mocha/Chai"
 	]
 
 }

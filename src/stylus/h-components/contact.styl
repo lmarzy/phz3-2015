@@ -15,15 +15,19 @@
 
     &__item {
 
-      &--email, &--mob {
-        opacity: 0;
-      }
+      +bp('20', max) {
 
-      &--email {
-        animation: email 1200ms 2000ms ease-in forwards;
-      }
-      &--mob {
-        animation: mob 1200ms 2000ms ease-in forwards;
+        &--email, &--mob {
+          opacity: 0;
+        }
+
+        &--email {
+          animation: email 1200ms 2000ms ease-in forwards;
+        }
+        &--mob {
+          animation: mob 1200ms 2000ms ease-in forwards;
+        }
+
       }
 
     }

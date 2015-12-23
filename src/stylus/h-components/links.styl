@@ -33,16 +33,20 @@
       background-color: colours.brand.a;
       border-radius: 50%;
       color: colours.brand.b;
-      opacity: 0;
+      opacity: 0.4;
 
-        &--twitter {
-          animation: twitter 700ms 1000ms ease-in forwards;
-        }
-        &--linkedin {
-          animation: linkedin 700ms 1400ms ease-in forwards;
-        }
-        &--blog {
-          animation: blog 700ms 1800ms ease-in forwards;
+        +bp('20', max) {
+          opacity: 0;
+
+            &--twitter {
+              animation: twitter 700ms 1000ms ease-in forwards;
+            }
+            &--linkedin {
+              animation: linkedin 700ms 1400ms ease-in forwards;
+            }
+            &--blog {
+              animation: blog 700ms 1800ms ease-in forwards;
+            }
         }
     }
 
