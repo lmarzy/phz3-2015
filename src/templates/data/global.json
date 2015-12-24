@@ -40,7 +40,7 @@
 			"title": "Lead UI Developer",
 			"company": "Bizfitech",
 			"dates": {
-				"startMachine": "2015-08-01",
+				"startMachine": "2015-08",
 				"startScreen": "August 2015"
 			}
 		},
@@ -48,9 +48,9 @@
 			"title": "UI Developer",
 			"company": "Emirates",
 			"dates": {
-				"startMachine": "2015-07-01",
+				"startMachine": "2015-07",
 				"startScreen": "July 2015",
-				"endMachine": "2015-09-01",
+				"endMachine": "2015-09",
 				"endScreen": "September 2015"
 			}
 		},
@@ -58,9 +58,9 @@
 			"title": "UI Consultant",
 			"company": "EPOS Now",
 			"dates": {
-				"startMachine": "2015-06-01",
+				"startMachine": "2015-06",
 				"startScreen": "June 2015",
-				"endMachine": "2015-07-01",
+				"endMachine": "2015-07",
 				"endScreen": "July 2015"
 			}
 		},
@@ -68,9 +68,9 @@
 			"title": "Lead Front-end",
 			"company": "Tesco Bank",
 			"dates": {
-				"startMachine": "2014-12-01",
+				"startMachine": "2014-12",
 				"startScreen": "December 2014",
-				"endMachine": "2015-05-01",
+				"endMachine": "2015-05",
 				"endScreen": "May 2015"
 			}
 		},
@@ -78,9 +78,9 @@
 			"title": "Lead UI Developer",
 			"company": "Experian",
 			"dates": {
-				"startMachine": "2019-12-01",
+				"startMachine": "2019-12",
 				"startScreen": "December 2013",
-				"endMachine": "2014-12-01",
+				"endMachine": "2014-12",
 				"endScreen": "December 2014"
 			}
 		},
@@ -88,9 +88,9 @@
 			"title": "Lead UI Developer",
 			"company": "Dunelm",
 			"dates": {
-				"startMachine": "2013-04-01",
+				"startMachine": "2013-04",
 				"startScreen": "April 2016",
-				"endMachine": "2013-12-01",
+				"endMachine": "2013-12",
 				"endScreen": "December 2013"
 			}
 		},
@@ -98,9 +98,9 @@
 			"title": "Lead UI Developer",
 			"company": "Experian",
 			"dates": {
-				"startMachine": "2011-11-01",
+				"startMachine": "2011-11",
 				"startScreen": "November 2011",
-				"endMachine": "2013-04-01",
+				"endMachine": "2013-04",
 				"endScreen": "April 2013"
 			}
 		},
@@ -108,9 +108,9 @@
 			"title": "Head of Web-design/Front-end",
 			"company": "Metafocus",
 			"dates": {
-				"startMachine": "2011-03-01",
+				"startMachine": "2011-03",
 				"startScreen": "March 2011",
-				"endMachine": "2011-11-01",
+				"endMachine": "2011-11",
 				"endScreen": "November 2011"
 			}
 		},
@@ -118,9 +118,9 @@
 			"title": "UI Designer/Developer",
 			"company": "Play.com",
 			"dates": {
-				"startMachine": "2009-11-01",
+				"startMachine": "2009-11",
 				"startScreen": "November 2009",
-				"endMachine": "2011-03-01",
+				"endMachine": "2011-03",
 				"endScreen": "March 2011"
 			}
 		},
@@ -128,9 +128,9 @@
 			"title": "Tech Support/Web developer",
 			"company": "Sports Direct",
 			"dates": {
-				"startMachine": "2006-09-01",
+				"startMachine": "2006-09",
 				"startScreen": "September 2006",
-				"endMachine": "2009-11-01",
+				"endMachine": "2009-11",
 				"endScreen": "November 2009"
 			}
 		}

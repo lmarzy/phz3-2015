@@ -1,0 +1,28 @@
+<section class="c-section">
+
+  <h1 class="c-section__title">What some kind folk have said about me</h1>
+
+  <ul>
+    <li>
+      <blockquote class="c-quote">
+          <p class="c-quote__details">
+            Lee was instrumental in helping us radically modernise a very large programme of re-development work for our flagship consumer website. With Lee in the team it gave us the confidence to adopt some forward thinking technology, processes and best practices. In particular, Lee laid out the core responsive SASS (CSS) framework for the re-design, trained and on-boarded new developers, code reviewed HTML5 and SASS and delivered premium quality code that ultimately allowed us to deliver an exceptional product under budget.
+          </p>
+          <footer>
+            <cite class="c-quote__source"><a href="https://twitter.com/fonters">James Cameron-Williams</a>, Experian</cite>
+          </footer>
+      </blockquote>
+    </li>
+    <li>
+      <blockquote class="c-quote">
+          <p class="c-quote__details">
+            Lee is a great frontend developer with a can do attitude and great work ethic. He knows his craft and was easy to work with, providing any team he worked in quality artefacts built for automation. I would happily work with Lee again.
+          </p>
+          <footer>
+            <cite class="c-quote__source"><a href="https://twitter.com/fonters">Monty Menon</a>, Dunelm</cite>
+          </footer>
+      </blockquote>
+    </li>
+  </ul>
+
+</section>

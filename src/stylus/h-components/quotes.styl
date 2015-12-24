@@ -1,0 +1,33 @@
+/* ==========================================================================
+   COMPONENTS - QUOTES
+   ========================================================================== */
+
+.c-quote {
+  margin-bottom: base-spacing;
+  background: lighten(colours.main.borders,2);
+  border-left: 8px solid darken(colours.main.borders,6);
+  border-radius: 0 6px 6px 0;
+  margin: base-spacing 0;
+  padding: rem(12px);
+  quotes: "\201C""\201D""\2018""\2019";
+
+    &:before  {
+      color: #ccc;
+      font-family: Georgia, serif;
+      content: open-quote;
+      font-size: rem(110px);
+      line-height: 0;
+      margin-right: rem(10px);
+      vertical-align: -0.45em;
+    }
+
+    &__details {
+      display: inline;
+    }
+
+    &__source {
+      display: block;
+      margin-top: rem(4px);
+    }
+
+}
