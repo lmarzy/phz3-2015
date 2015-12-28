@@ -11,7 +11,6 @@
   color: lighten(colours.brand.b,30);
   background: colours.brand.b;
   text-align: center;
-  overflow: hidden;
 
     &__contact {
       margin-bottom: base-spacing;
@@ -30,14 +29,14 @@
       &__status {
           position: fixed;
           top: 0;
-          bottom: 0;
-          right: rem(-200px);
-          width: rem(200px);
-          z-index: -1;
+          height: 100%;
+          right: rem(-300px);
+          width: rem(300px);
+          // z-index: -1;
       }
 
       &__is-status-revealed {
-        transform: translateX(-200px);
+        transform: translateX(rem(-300px));
       }
   }
 

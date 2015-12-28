@@ -20,7 +20,7 @@ module.exports = {
       task: 'stylus'
     },
     js: {
-      src : path.src + 'browserify/**',
+      src : path.src + 'js/**',
       task: 'js'
     },
     img: {

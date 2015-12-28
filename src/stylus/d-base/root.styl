@@ -31,13 +31,13 @@ html {
 }
 
 body {
-  position: relative;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
+  max-width: rem(1100px);
+  margin: 0 auto;
   background: white;
 
     +bp('30') {
-      width: rem(1200px);
       margin: base-spacing * 2 auto base-spacing * 2 auto;
       border: 1px solid colours.main.borders;
       border-radius: 6px;

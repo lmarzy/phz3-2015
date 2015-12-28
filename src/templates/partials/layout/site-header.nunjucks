@@ -1,4 +1,4 @@
-<header class="c-site-header">
+<header id="js-site-header" class="c-site-header">
 
 		<div>
 
@@ -24,7 +24,7 @@
 				<li class="c-contact__item c-contact__item--mob"><span class="is-vh">Contact number: </span>07903635253<li>
 			</ul>
 
-			<p class="c-site-header__status-link c-status-link">
+			<p id="js-show-status" class="c-site-header__status-link c-status-link">
 				<span class="is-vh">Show my current </span>
 				<a href="#work-status">Work status <svg class="c-status-link__icon icon icon-circle-right"><use xlink:href="#icon-circle-right"></use></svg></a></p>
 
@@ -39,6 +39,12 @@
 			<dd>{{ status.title }}</dd>
 			<dt>End date</dt>
 			<dd><time datetime="{{ status.data.machine }}">{{ status.date.screen }}</time></dd>
+			<dd class="c-status__close c-status__close--text"><span class="is-vh">Close</span></dd>
+			<dt class="c-status__close">
+				<button type="button" id="js-status-close" class="c-status__btn">
+					<svg class="icon icon-cancel-circle c-status__icon"><use xlink:href="#icon-cancel-circle"></use></svg>
+				</button>
+			</dt>
 		</dl>
 
 </header> <!-- !END header.c-site-header -->

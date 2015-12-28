@@ -1,5 +1,7 @@
 <footer class="c-site-footer">
 
-	<small class="c-copyright">&copy;</small>
+	<div class="o-wrap">
+		<small class="c-copyright">&copy; phz3 ltd</small>
+	</div>
 
-</footer> <!-- !END footer.c-site-footer -->	
+</footer> <!-- !END footer.c-site-footer -->

@@ -8,6 +8,21 @@
 
     +bp('20', max) {
       background: lighten(colours.brand.b,5);
+
+        dt.c-status__close, dd.c-status__close {
+          float: none;
+          width: 100%;
+          clear: both;
+          text-align: center;
+        }
+        &__btn {
+          background: none;
+          border: none;
+        }
+
+        &__icon {
+          font-size: rem(38px);
+        }
     }
 
     dt, dd {
@@ -30,6 +45,10 @@
       +bp('20') {
         dt, dd {
           padding: rem(12px);
+        }
+
+        &__close {
+          display: none;
         }
       }
 
