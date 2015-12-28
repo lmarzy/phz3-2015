@@ -7,11 +7,11 @@
   <ul class="o-grid l-about">
     <li>
       <h2 class="c-section__sub-title">Front-end Development</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem architecto rerum ab distinctio ad? Nulla itaque quia commodi, aliquid.</p>
+      <p>Working on short or long term projects providing help to build scalable Front-ends as either the sole developer to setup the architecture and workflows as well as do the development or as part of a team to take some of the load. Ultimately creatign scalable, maintainable and performant Front-ends.</p>
     </li>
     <li>
       <h2 class="c-section__sub-title">Consultancy</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem architecto rerum ab distinctio ad? Nulla itaque quia commodi, aliquid.</p>
+      <p>Providing consultancy to a range of clients. From advice to creating a robust architecture, better workflows and how to scale Front-end for large codebase's. I will also make the tea once in a while ;)</p>
     </li>
   </ul>
 

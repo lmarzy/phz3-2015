@@ -158,9 +158,6 @@
 		"Grunt",
 		"Gulp",
 		"NPM",
-		"Adobe Photoshop",
-		"Adobe Fireworks",
-		"Sketch",
 		"Visual Studio",
 		"Team Foundation Server",
 		"Eclipse",
@@ -170,7 +167,13 @@
 		"Atom",
 		"Visusl studio code",
 		"Webstorm",
-		"Git and Github"
+		"Git",
+		"Github/Bitbucket",
+		"Photoshop",
+		"Fireworks",
+		"Sketch",
+		"Jira",
+		"Slack"
 	],
 
 	"exposure": [
