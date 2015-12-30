@@ -23,6 +23,17 @@
           </footer>
       </blockquote>
     </li>
+    <li>
+      <blockquote class="c-quote">
+          <p class="c-quote__details">
+            Lee is a Front End developer of superior quality. His CSS/SASS skills are beyond compare, he is the goto guy when you need an answer in 2 seconds! He is also an accomplished JavaScript Developer having worked with Node, Angular, Gulp, Require, Modernizr, JQuery/Zepto and template API's such as Swig and Handlebars.
+            He is also superb when it comes to brainstorming and planning sessions often coming up with that stroke of genius just when the team is scratching their heads over a tricky technical solution.
+          </p>
+          <footer>
+            <cite class="c-quote__source"><a href="https://www.linkedin.com/in/philglen">Phil Glen</a>, Experian</cite>
+          </footer>
+      </blockquote>
+    </li>
   </ul>
 
 </section>
