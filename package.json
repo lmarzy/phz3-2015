@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dev/ dist/",
-    "dev": "npm run clean && gulp serve",
+    "start": "npm run clean && gulp serve",
     "prod": "npm run clean && gulp --prod && rm -rf dev/"
   },
   "devDependencies": {
