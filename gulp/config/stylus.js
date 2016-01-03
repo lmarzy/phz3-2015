@@ -8,7 +8,7 @@ var path          = require('./_global').paths,
 module.exports = {
   src: path.src + 'stylus/main.styl',
   uncssGlob: 'dev/*.html',
-  uncssIgnore: [''],
+  uncssIgnore: ['.c-site-header__is-status-revealed'],
   mapWrite: './map',
   dest: path.dest + 'css',
   processors: [
