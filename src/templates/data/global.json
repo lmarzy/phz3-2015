@@ -26,22 +26,32 @@
 
 	"status": {
 			"inContract": "Yes",
-			"company": "Bizfitech",
+			"company": "Experian",
 			"date": {
-				"machine": "2015-12-31",
-				"screen": "31/12/2015"
+				"machine": "2016-07",
+				"screen": "July 2016"
 			},
 			"title": "UI Developer"
 	},
 
 	"experience": [
-		{
+    {
 			"current": true,
+			"title": "UI Developer",
+			"company": "Experian",
+			"dates": {
+				"startMachine": "2016-05",
+				"startScreen": "May 2016"
+			}
+		},
+		{
 			"title": "Lead UI Developer",
 			"company": "Bizfitech",
 			"dates": {
 				"startMachine": "2015-08",
-				"startScreen": "August 2015"
+				"startScreen": "August 2015",
+        "endMachine": "2016-05",
+				"endScreen": "May 2016"
 			}
 		},
 		{
