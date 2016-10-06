@@ -28,8 +28,8 @@
 			"inContract": "Yes",
 			"company": "Experian",
 			"date": {
-				"machine": "2016-07",
-				"screen": "July 2016"
+				"machine": "2016-11",
+				"screen": "Nov 2016"
 			},
 			"title": "UI Developer"
 	},
@@ -151,6 +151,8 @@
 		"CSS 2/3",
 		"LESS, SASS, Stylus and PostCSS",
 		"JavaScript including ES6",
+    "Node",
+    "Express",
 		"jQuery",
 		"DOM",
 		"JSON",
@@ -201,8 +203,10 @@
 		"T-SQL",
 		"Jekyll (static site generator)",
 		"Twitter bootstrap/Zurb Foundation/Bourbon/Neat",
-		"Casperjs",
-		"Mocha/Chai"
+		"CasperJs",
+    "ChimpJs",
+		"Mocha/Chai",
+    "TapeJs"
 	]
 
 }
